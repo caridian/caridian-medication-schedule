@@ -1,0 +1,136 @@
+.bemvindo {
+    background-image: url("../img/bemvindo.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: 100%
+
+}
+
+.login {
+
+    background-image: url("../img/login.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 50px;
+    
+}
+
+.lado-esquerdo {
+    max-width: 200px;
+}
+
+.formulario {
+    background: rgba(255,255,255,0.9);
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario input {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.formulario button {
+    padding: 10px;
+    background: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+body {
+
+    
+    background-image: url("../img/remedio.jpg");
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background-color: transparent;
+    background-size: 120%
+}
+
+.container {
+    background-color: transparent;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 320px;
+    text-align: left;
+}
+
+
+.cadastrodose {
+    margin-bottom: 40px; /* espaço adequado */
+    text-align: left;
+    font-size: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #006fd6;
+    color: rgb(255, 3, 3);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #006fd6;
+}
+
+
+.botoes-topo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px; /* 👈 separa automaticamente */
+}
+
+.btn {
+    padding: 8px 16px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+    background-color: #006fd6;
+    border: 1px solid rgb(7, 0, 0);
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
